@@ -1,0 +1,93 @@
+inherit_from: .rubocop_todo.yml
+
+AllCops:
+  Include:
+    - rubocop-rails
+    - rubocop-rspec
+    - '**/Gemfile'
+  Exclude:
+    - 'db/**/*'
+    - 'vendor/**/*'
+    - 'config/initializers/*'
+    - 'config/application.rb'
+    - 'config/puma.rb'
+    - 'spec/**/*'
+    - 'bin/*'
+    - 'config/environments/*'
+  TargetRubyVersion: 2.5
+
+# 日本語の許可
+AsciiComments:
+  Enabled: false
+
+# return後の改行は不必要
+Layout/EmptyLineAfterGuardClause:
+  Enabled: false
+
+# 配列のインデントを行頭にあわせる
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+# privateメソッド等をネストさせる
+Layout/IndentationConsistency:
+  EnforcedStyle: indented_internal_methods
+
+# if等の条件チェックを無効化
+Lint/AssignmentInCondition:
+  Enabled: false
+
+# https://rubocop.readthedocs.io/en/latest/cops_metrics/ 参照のこと
+Metrics/AbcSize:
+  Max: 20
+
+# classの最大長さ
+Metrics/ClassLength:
+  Max: 200
+
+# lineの最大長さ
+Metrics/LineLength:
+  Max: 128
+
+# methodの最大長さ
+Metrics/MethodLength:
+  Max: 15
+
+# accessor methodsを自由に命名する
+Naming/AccessorMethodName:
+  Enabled: false
+
+# クラスやモジュールの上部のコメントを強制しない
+Style/Documentation:
+  Enabled: false
+
+# 空メソッドのendを一行に納めない
+Style/EmptyMethod:
+  Enabled: false
+
+# # frozen_string_literal: true コメントを強要しない
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# 後置if,後置unlessを強要しない
+Style/IfUnlessModifier:
+  Enabled: false
+
+# 大きい数字に_で区切らない
+Style/NumericLiterals:
+  Enabled: false
+
+# selfの使用を常に許可する
+Style/RedundantSelf:
+  Enabled: false
+
+# rescue で例外を指定する
+Style/RescueStandardError:
+  Enabled: false
+
+# nilチェックに &. や && を強要しない
+Style/SafeNavigation:
+  Enabled: false
+
+# %i()構文を強要しない
+Style/SymbolArray:
+  Enabled: false
