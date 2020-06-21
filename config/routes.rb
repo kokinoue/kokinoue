@@ -4,4 +4,5 @@ Rails.application.routes.draw do
     namespace :v1 do
     end
   end
+  get '*path', to: 'homes#redirect_to_root'
 end
