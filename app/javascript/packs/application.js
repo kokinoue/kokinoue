@@ -8,3 +8,11 @@ import "regenerator-runtime/runtime";
 import Vue from 'vue'
 import App from '../app.vue'
 import Router from './router.js'
+
+document.addEventListener('DOMContentLoaded', () => {
+  new Vue({
+    el: '#app',
+    router: Router,
+    render: (h) => h(App)
+  })
+})
