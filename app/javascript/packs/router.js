@@ -12,4 +12,4 @@ const routes = [
   { path: '/contact', name: 'Contact', component: Contact }
 ];
 
-export default new VueRouter({ routes });
+export default new VueRouter({ mode: 'history', routes: routes });
