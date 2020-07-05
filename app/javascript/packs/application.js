@@ -9,8 +9,6 @@ import Vue from 'vue'
 import App from '../app.vue'
 import Router from './router.js'
 
-const assets = require.context('./assets/', true)
-
 document.addEventListener('DOMContentLoaded', () => {
   new Vue({
     el: '#app',

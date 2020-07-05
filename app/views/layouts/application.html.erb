@@ -8,12 +8,11 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="<%= request.url %>" />
     <meta property="og:site_name" content="kokinoue" />
-    <link rel="shortcut icon" type="image/png" href="<%#= asset_pack_path 'assets/icon.png' %>" />
+    <link rel="shortcut icon" type="image/png" href="<%= asset_pack_path 'media/packs/assets/icon.png' %>" />
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <%= javascript_pack_tag 'application' %>
     <%= stylesheet_pack_tag 'application' %>
-    <%= image_pack_tag 'assets/icon.png' %>
   </head>
   <body>
     <%= yield %>
