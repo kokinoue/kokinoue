@@ -4,8 +4,8 @@ require("channels")
 
 import "core-js";
 import "regenerator-runtime/runtime";
-import '@fortawesome/fontawesome-free/js/all'
-import './application.scss'
+import '@fortawesome/fontawesome-free/js/all';
+import '../src/application.scss';
 
 import Vue from 'vue'
 import App from '../app.vue'
