@@ -5,5 +5,5 @@
 </template>
 </script>
 </script>
-<style scoped lang="scss">
+<style scoped>
 </style>
