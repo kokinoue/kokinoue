@@ -8,5 +8,5 @@ export default {
   name: 'home'
 }
 </script>
-<style scoped>
+<style scoped lang="scss">
 </style>
