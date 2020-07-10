@@ -6,6 +6,7 @@
       <router-link to="/about">About</router-link>
       <router-link to="/contact">Contact</router-link>
       <a href="https://github.com/kokinoue/" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.facebook.com/koki.inoue.921" target="_blank"><i class="fab fa-facebook"></i></a>
     </div>
     <router-view />
   </header>
