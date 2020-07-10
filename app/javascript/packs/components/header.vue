@@ -17,6 +17,9 @@
       <a class="links-icon" href="https://qiita.com/ko_ki" target="_blank">
         <img class="links-image" src="../assets/qiita.ico" alt="qiita">
       </a>
+      <a class="links-icon" href="https://note.com/kkkkiiiii" target="_blank">
+        <img class="links-image" src="../assets/note.png" alt="note">
+      </a>
     </div>
     <router-view />
   </header>
