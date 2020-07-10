@@ -19,4 +19,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+  #app {
+    color: #333;
+  }
 </style>
