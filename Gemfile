@@ -8,10 +8,13 @@ gem 'jbuilder', '~> 2.7'
 gem 'mysql2', '>= 0.4.4'
 gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
-gem 'rails_12factor', '~> 0.0.3'
 gem 'sass-rails', '>= 6'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'webpacker', '~> 4.0'
+
+group :production do
+  gem 'rails_12factor', '~> 0.0.3'
+end
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
