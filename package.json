@@ -10,6 +10,7 @@
     "axios": "^0.19.2",
     "import-glob-loader": "^1.1.0",
     "node-sass": "^4.14.1",
+    "sass": "^1.26.10",
     "vue": "^2.6.11",
     "vue-eslint-parser": "^7.1.0",
     "vue-loader": "^15.9.2",
