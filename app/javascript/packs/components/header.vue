@@ -38,7 +38,8 @@ export default {
 
 <style scoped lang="scss">
   header {
-    margin: 30vh auto 0;
+    margin: 0 auto;
+    padding-top: 30vh;
     text-align: center;
     width: 60vw;
 
