@@ -13,6 +13,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'webpacker', '~> 4.0'
 
 group :production do
+  gem 'newrelic_rpm'
   gem 'rails_12factor', '~> 0.0.3'
 end
 
