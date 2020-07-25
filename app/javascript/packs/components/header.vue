@@ -1,6 +1,6 @@
 <template lang="html">
   <header>
-    <img class="icon" src="../assets/icon.png" alt="アイコン">
+    <img class="icon" src="../assets/icon.gif" alt="アイコン">
     <div class="nav">
       <div class="links">
         <router-link to="/" class="router">Home</router-link>
