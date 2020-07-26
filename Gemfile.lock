@@ -278,7 +278,7 @@ DEPENDENCIES
   rubocop-rspec
   sass-rails (>= 6)
   selenium-webdriver
-  slack-notifier
+  slack-notifier (~> 2.3.2)
   spring
   spring-watcher-listen (~> 2.0.0)
   tzinfo-data
