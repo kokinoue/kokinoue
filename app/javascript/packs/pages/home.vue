@@ -19,7 +19,9 @@
   }
 
   .home {
+    letter-spacing: 0.08em;
     margin: 20px 0;
+    text-align: center;
 
     &-title {
       font-size: 20px;
