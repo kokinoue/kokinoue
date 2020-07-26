@@ -5,17 +5,17 @@
 </template>
 
 <script>
-import Header from './packs/components/header';
+  import Header from './packs/components/header';
 
-export default {
-  name: 'MyApp',
-  props: {
-    msg: String
-  },
-  components: {
-    Header
+  export default {
+    name: 'MyApp',
+    props: {
+      msg: String
+    },
+    components: {
+      Header
+    }
   }
-}
 </script>
 
 <style scoped lang="scss">

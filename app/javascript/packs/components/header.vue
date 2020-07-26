@@ -31,12 +31,21 @@
 </template>
 
 <script>
-export default {
-  name: 'Header'
-}
+  export default {
+    name: 'Header'
+  }
 </script>
 
 <style scoped lang="scss">
+  $break-small: 414px;
+  $break-medium: 960px;
+
+  @mixin query($size) {
+      @media all and (max-width: $size) {
+          @content;
+      }
+  }
+
   header {
     margin: 0 auto;
     padding-top: 30vh;
@@ -64,6 +73,9 @@ export default {
           font-size: 12px;
           letter-spacing: 0.15em;
           padding: 0 12px;
+          @include query($break-small) {
+            
+          }
 
           &-link-exact-active {
             font-weight: bold;
