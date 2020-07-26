@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <p class="home-title">koki inoue / 井上 航輝</p>
+    <p class="home-title">Koki Inoue / 井上 航輝</p>
   </div>
 </template>
 <script>
