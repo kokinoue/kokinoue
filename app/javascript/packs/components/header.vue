@@ -51,17 +51,32 @@
     padding-top: 30vh;
     text-align: center;
     width: 60vw;
+    @include query($break-small) {
+      height: 30vh;
+      padding: 25vh 0 45vh;
+    }
+
+    @include query($break-medium) {
+      width: 90vw;
+    }
 
     .icon {
       border: 3px solid #ccc;
       border-radius: 50%;
       height: 10vw;
       width: 10vw;
+      @include query($break-small) {
+        height: 24vw;
+        width: 24vw;
+      }
     }
 
     .nav {
       display: flex;
       justify-content: space-around;
+      @include query($break-small) {
+        display: block;
+      }
 
       a {
         color: #333;
@@ -69,13 +84,14 @@
       }
 
       .links {
+        @include query($break-small) {
+          margin: 10px 0;
+        }
+
         .router {
           font-size: 12px;
           letter-spacing: 0.15em;
           padding: 0 12px;
-          @include query($break-small) {
-            
-          }
 
           &-link-exact-active {
             font-weight: bold;
@@ -84,7 +100,7 @@
 
         &-icon {
           display: inline-flex;
-          margin: 0 4px;
+          margin: 0 8px;
         }
 
         &-image {
