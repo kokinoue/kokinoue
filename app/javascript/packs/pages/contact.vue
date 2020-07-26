@@ -109,6 +109,7 @@
           border: 2px solid #ccc;
           padding: 12px;
           width: 100%;
+          -webkit-appearance: none;
           &:hover {
             background: #ccc;
           }
