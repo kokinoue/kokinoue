@@ -49,7 +49,7 @@
     text-align: center;
     @include query($break-small) {
       height: 30vh;
-      padding: 25vh 0 45vh;
+      padding-top: 25vh
     }
 
     .icon {

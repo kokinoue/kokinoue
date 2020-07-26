@@ -100,6 +100,7 @@
         }
 
         &-input {
+          box-sizing: border-box;
           padding: 4px;
           width: 100%;
         }
