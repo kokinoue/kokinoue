@@ -48,7 +48,7 @@
 
   header {
     margin: 0 auto;
-    padding-top: 30vh;
+    padding-top: 20vh;
     text-align: center;
     width: 60vw;
     @include query($break-small) {
@@ -90,7 +90,7 @@
 
         .router {
           font-size: 12px;
-          letter-spacing: 0.15em;
+          letter-spacing: 0.16em;
           padding: 0 12px;
 
           &-link-exact-active {

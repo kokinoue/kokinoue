@@ -8,10 +8,7 @@
   import Header from './packs/components/header';
 
   export default {
-    name: 'MyApp',
-    props: {
-      msg: String
-    },
+    name: 'kokinoue',
     components: {
       Header
     }

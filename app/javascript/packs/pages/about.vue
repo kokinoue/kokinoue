@@ -34,6 +34,7 @@
 
   .about {
     font-size: 20px;
+    letter-spacing: 0.08em;
     margin: 20px 0;
     @include query($break-small) {
       font-size: 16px;

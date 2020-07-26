@@ -23,7 +23,7 @@
 
     &-title {
       font-size: 20px;
-      letter-spacing: 0.10em;
+      letter-spacing: 0.08em;
       margin: 0;
     }
   }
