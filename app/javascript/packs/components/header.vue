@@ -101,6 +101,14 @@
         &-icon {
           display: inline-flex;
           margin: 0 8px;
+
+          .fa-facebook {
+            color: #3B5998;
+          }
+
+          .fa-twitter {
+            color: #1DA1F2;
+          }
         }
 
         &-image {
