@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <%= render 'partials/google_analytics_tags' %>
     <title>kokinoue</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:title" content="koki inoue | 井上 航輝" />
@@ -12,7 +13,6 @@
     <link rel="shortcut icon" type="image/png" href="<%= asset_pack_path 'media/packs/assets/icon.gif' %>" />
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <%= render 'partials/google_analytics_tags' %>
     <%= javascript_pack_tag 'application' %>
     <%= stylesheet_pack_tag 'application' %>
   </head>
