@@ -9,19 +9,19 @@
     <form @submit.prevent="sendMessage" class="contact-form" method="post">
       <div class="contact-form-row">
         <p class="contact-form-row-label">Name</p>
-        <input id="name" class="contact-form-row-input" v-model="contact.name" type="text" required>
+        <input id="name" class="contact-form-row-input" v-model="contact.name" type="text">
       </div>
       <div class="contact-form-row">
         <p class="contact-form-row-label">Email</p>
-        <input id="email" class="contact-form-row-input" v-model="contact.email" type="email" name="email" required>
+        <input id="email" class="contact-form-row-input" v-model="contact.email" type="email" name="email">
       </div>
       <div class="contact-form-row">
         <p class="contact-form-row-label">Title</p>
-        <input id="title" class="contact-form-row-input" v-model="contact.title" type="text" name="title" required>
+        <input id="title" class="contact-form-row-input" v-model="contact.title" type="text" name="title">
       </div>
       <div class="contact-form-row">
         <p class="contact-form-row-label">Message</p>
-        <textarea id="message" class="contact-form-row-input" v-model="contact.message" type="text" name="message" required rows="8"></textarea>
+        <textarea id="message" class="contact-form-row-input" v-model="contact.message" type="text" name="message" rows="8"></textarea>
       </div>
       <div class="contact-form-row">
         <input class="contact-form-row-submit" type="submit" value="Send">
