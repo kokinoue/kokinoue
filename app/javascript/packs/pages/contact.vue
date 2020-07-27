@@ -84,7 +84,7 @@
 
   .contact {
     letter-spacing: 0.08em;
-    margin: 40px 0;
+    margin: 40px 0 80px;
 
     &-form {
       &-row {
