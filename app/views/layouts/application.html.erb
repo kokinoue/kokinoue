@@ -12,6 +12,7 @@
     <link rel="shortcut icon" type="image/png" href="<%= asset_pack_path 'media/packs/assets/icon.gif' %>" />
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= render 'partials/google_analytics_tags' %>
     <%= javascript_pack_tag 'application' %>
     <%= stylesheet_pack_tag 'application' %>
   </head>
