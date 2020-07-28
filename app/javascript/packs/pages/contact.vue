@@ -86,6 +86,10 @@
     letter-spacing: 0.08em;
     margin: 40px 0 80px;
 
+    &-success, &-error {
+      text-align: center;
+    }
+
     &-form {
       &-row {
         margin: 0 auto 20px;
