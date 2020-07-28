@@ -217,6 +217,8 @@ GEM
     selenium-webdriver (3.142.7)
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
+    sitemap_generator (6.1.2)
+      builder (~> 3.0)
     slack-notifier (2.3.2)
     spring (2.1.0)
     spring-watcher-listen (2.0.1)
@@ -278,6 +280,7 @@ DEPENDENCIES
   rubocop-rspec
   sass-rails (>= 6)
   selenium-webdriver
+  sitemap_generator (~> 6.1.2)
   slack-notifier (~> 2.3.2)
   spring
   spring-watcher-listen (~> 2.0.0)
