@@ -14,6 +14,9 @@
         <a class="links-icon" href="https://www.facebook.com/koki.inoue.921" target="_blank">
           <i class="fab fa-facebook links-image"></i>
         </a>
+        <a class="links-icon" href="https://www.linkedin.com/in/%E8%88%AA%E8%BC%9D-%E4%BA%95%E4%B8%8A-63461b148/" target="_blank">
+          <i class="fab fa-linkedin links-image"></i>
+        </a>
         <a class="links-icon" href="https://twitter.com/fashionenjineer" target="_blank">
           <i class="fab fa-twitter links-image"></i>
         </a>
@@ -96,6 +99,10 @@
 
           .fa-facebook {
             color: #3B5998;
+          }
+
+          .fa-linkedin {
+            color: #0e76a8;
           }
 
           .fa-twitter {
