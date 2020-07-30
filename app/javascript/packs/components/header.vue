@@ -80,7 +80,7 @@
 
       .links {
         @include query($break-small) {
-          margin: 10px 0;
+          margin: 16px 0;
         }
 
         .router {

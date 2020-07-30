@@ -104,6 +104,7 @@
         }
 
         &-input {
+          border: 2px solid #ccc;
           box-sizing: border-box;
           padding: 4px;
           width: 100%;
