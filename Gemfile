@@ -5,6 +5,7 @@ ruby '2.7.0'
 
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'jbuilder', '~> 2.7'
+gem 'google-cloud-storage', '~> 1.27.0'
 gem 'mysql2', '>= 0.4.4'
 gem 'puma', '~> 4.1'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
