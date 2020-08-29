@@ -18,3 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
     render: (h) => h(App)
   })
 })
+
+require("trix")
+require("@rails/actiontext")
