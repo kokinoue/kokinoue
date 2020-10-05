@@ -4,7 +4,6 @@
       <tr class="about-table-row">
         <th class="about-table-row-title">Name: </th>
         <td class="about-table-row-value">Koki Inoue / 井上航輝</td>
-        <!-- <p>comment</p> -->
       </tr>
       <tr class="about-table-row">
         <th class="about-table-row-title">Job: </th>
