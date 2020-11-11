@@ -17,13 +17,13 @@
         <a class="links-icon" href="https://www.linkedin.com/in/%E8%88%AA%E8%BC%9D-%E4%BA%95%E4%B8%8A-63461b148/" target="_blank">
           <i class="fab fa-linkedin links-image"></i>
         </a>
-        <a class="links-icon" href="https://twitter.com/fashionenjineer" target="_blank">
+        <a class="links-icon" href="https://twitter.com/kokinoue" target="_blank">
           <i class="fab fa-twitter links-image"></i>
         </a>
-        <a class="links-icon" href="https://qiita.com/ko_ki" target="_blank">
+        <a class="links-icon" href="https://qiita.com/kokinoue" target="_blank">
           <img class="links-image" src="../assets/qiita.ico" alt="qiita">
         </a>
-        <a class="links-icon" href="https://note.com/kkkkiiiii" target="_blank">
+        <a class="links-icon" href="https://note.com/kokinoue" target="_blank">
           <img class="links-image" src="../assets/note.png" alt="note">
         </a>
       </div>
