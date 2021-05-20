@@ -7,7 +7,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'jbuilder', '~> 2.7'
 gem 'google-cloud-storage', '~> 1.27.0'
 gem 'mysql2', '>= 0.4.4'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
 gem 'sass-rails', '>= 6'
 gem 'sitemap_generator', '~> 6.1.2'
